@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#ffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    
+       <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+             >
+             
+ 		<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        
+         <Button android:text="ENTRY TUGAS" 
+         android:id="@+id/entryTugas" 
+         android:textStyle="bold"
+         android:textSize="16px"
+         android:layout_width="match_parent" 
+         android:layout_height="match_parent"></Button>
+         
+        
+</LinearLayout>
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <Button android:text="UPDATE TUGAS" 
+        android:layout_height="match_parent" 
+        android:layout_width="match_parent" 
+        android:textStyle="bold"
+        android:textSize="16px"
+        android:id="@+id/updateTugas"></Button>
+
+      
+       
+
+</LinearLayout>
+       
+       
+              
+       </LinearLayout>
+        
+    </ScrollView>

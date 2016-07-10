@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobile.learning"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:debuggable="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.mobile.learning.login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mobile.learning.halamanUtama" />
+        <activity android:name="mobile.course.course" />
+        <activity android:name="mobile.course.courseBooks" >
+
+            <!--
+ ATTENTION: This intent was auto-generated. Follow instructions at
+  https://g.co/AppIndexing/AndroidStudio to publish your URLs.
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!--
+                  ATTENTION: This data URL was auto-generated. We recommend that you use the HTTP scheme.
+                  TODO: Change the host or pathPrefix as necessary.
+                -->
+                <data
+                    android:host="learning.mobile.com"
+                    android:pathPrefix="/coursedetail"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity android:name="mobile.course.courseBookChapters" />
+        <activity android:name="mobile.course.courseDetailJs" />
+        <activity android:name="mobile.berita.berita" />
+        <activity android:name="mobile.berita.beritaDetail" />
+        <activity android:name="mobile.download.download" />
+        <activity android:name="mobile.download.downDetail" />
+        <activity android:name="mobile.download.downText" />
+        <activity android:name="mobile.nilai.nilai" />
+        <activity android:name="mobile.nilai.nilaiDetail" />
+        <activity android:name="mobile.nilai.nilaiDetailJs" />
+        <activity android:name="mobile.upload.upload" />
+        <activity android:name="mobile.upload.uploadUpdate" />
+        <activity android:name="mobile.tugas.pilihTugas" />
+        <activity android:name="mobile.tugas.tugas" />
+        <activity android:name="mobile.tugas.tugasDetail" />
+        <activity android:name="mobile.tugas.tugasDetailJs" />
+        <activity android:name="mobile.tugas.tugasUp" />
+        <activity android:name="mobile.tugas.tugasDetailUp" />
+        <activity android:name="mobile.tugas.tugasDetailJsUp" />
+        <activity android:name="mobile.about.about" />
+    </application>
+
+</manifest>

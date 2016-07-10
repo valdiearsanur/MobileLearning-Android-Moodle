@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#ffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+       <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+  		
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        
+          <TextView
+        android:id="@+id/kepala"
+        android:text="MOBILE LEARNING LOGIN"
+        android:layout_marginTop="5px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20px"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        ></TextView>
+         
+        </LinearLayout>
+
+        
+           <EditText
+              android:layout_marginTop="20px"
+             android:id="@+id/uname"
+             android:layout_width="fill_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:hint="USERNAME"
+              android:layout_gravity="left"></EditText>
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="New Text"
+               android:id="@+id/textView" />
+
+           <EditText
+              android:layout_marginTop="20px"
+             android:id="@+id/passwd"
+             android:layout_width="fill_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:hint="PASSWORD"
+              android:password="true"
+              android:layout_gravity="left"></EditText>
+       <Button
+              android:id="@+id/login"
+              android:layout_width="93dp"
+              android:layout_height="wrap_content"
+              android:text="L O G I N"
+              android:layout_gravity="right"
+              android:textStyle="bold"
+              ></Button>
+              
+       </LinearLayout>
+        
+    </ScrollView>
+
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#ffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    
+       <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+             <AbsoluteLayout
+             android:layout_height="wrap_content" 
+             android:layout_width="fill_parent">
+  
+				<Button 
+				android:layout_height="50px" 
+				android:layout_width="match_parent" 
+				android:id="@+id/updateUpload" 
+				android:text="UPDATE FILE" 
+				android:layout_x="3dip" 
+				android:layout_y="1dip"></Button>
+
+				
+										</AbsoluteLayout>>
+             
+ 		<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        
+         <TextView
+         android:id="@+id/JudulTugas"
+       	 android:layout_marginTop="5px"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:textSize="20px"
+         android:gravity="center"
+         android:textStyle="bold"
+         android:textColor="#000000"
+        ></TextView>
+         
+        </LinearLayout>
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <TextView
+        android:id="@+id/isiTugas"
+        android:layout_marginTop="5px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:textColor="#000000"
+        ></TextView>
+
+      
+       </LinearLayout>
+       <EditText
+              android:layout_marginTop="20px"
+              android:id="@+id/jawaban"
+              android:layout_width="fill_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:hint="Ketik Jawaban Anda Disini"
+              android:layout_gravity="left"></EditText>
+       <Button
+              android:id="@+id/kirimUpdate"
+              android:layout_width="match_parent"
+              android:layout_height="50px"
+              android:text="KIRIM UPDATE JAWABAN"
+              android:layout_gravity="right"
+              ></Button>
+              
+       </LinearLayout>
+        
+    </ScrollView>
+
